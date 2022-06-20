@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="initiation weather app." />
+    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="initiation weather app.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +25,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ibouzidi/Django_projects/weather_app",
+    "last_opened_file_path": "C:/Users/ibouzidi/Django_projects/weather_app/weather_venv",
     "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)"
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655713916623</updated>
       <workItem from="1655713917861" duration="1520000" />
+      <workItem from="1655715891692" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
