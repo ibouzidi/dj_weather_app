@@ -1,6 +1,6 @@
 # Weather-App-Django
 
-This is a simple weather app that uses Open Weather API and Django as backend framework.
+This is a simple weather app that uses Open Weather API and Django as backend Framework.
 
 <h3>Links </h3>
 <ul>

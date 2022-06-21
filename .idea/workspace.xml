@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="add create form city, add messages and made changes in css.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="add fixtures.">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <updated>1655713916623</updated>
       <workItem from="1655713917861" duration="1520000" />
       <workItem from="1655715891692" duration="2778000" />
-      <workItem from="1655718704696" duration="23915000" />
+      <workItem from="1655718704696" duration="24025000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
@@ -92,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655803131972</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add fixtures.">
+      <created>1655804658245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655804658245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
     <MESSAGE value="Add css and add config weather api." />
     <MESSAGE value="add model city and display the weather from the cities stored in the database." />
     <MESSAGE value="add create form city, add messages and made changes in css." />
-    <option name="LAST_COMMIT_MESSAGE" value="add create form city, add messages and made changes in css." />
+    <MESSAGE value="add fixtures." />
+    <option name="LAST_COMMIT_MESSAGE" value="add fixtures." />
   </component>
 </project>
