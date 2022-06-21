@@ -11,7 +11,8 @@ This is a simple weather app that uses Open Weather API and Django as backend Fr
 1. Clone this repository: <pre> git clone https://github.com/ibouzidi/dj_weather_app.git</pre>
 2. Install requirements : <pre> pip install -r requirements.txt</pre>
 3. Migrate database : <pre>python manage.py migrate</pre>
-4. Run server : <pre>python manage.py runserver</pre>
+4. Get API KEY from Open Weather API and change url <pre>url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&lang=fr&appid={YOUR API KEY}' </pre> in weather/views.py
+5. Run server : <pre>python manage.py runserver</pre>
 
 ### Setup admin
 1. Create super user: <pre>python manage.py createsuperuser</pre>

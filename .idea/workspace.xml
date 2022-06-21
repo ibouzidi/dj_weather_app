@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="edit description.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="change URL." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +51,7 @@
       <updated>1655713916623</updated>
       <workItem from="1655713917861" duration="1520000" />
       <workItem from="1655715891692" duration="2778000" />
-      <workItem from="1655718704696" duration="24083000" />
+      <workItem from="1655718704696" duration="24841000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
@@ -104,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655804701459</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix close balise.">
+      <created>1655804747936</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655804747936</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change URL.">
+      <created>1655804879265</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655804879265</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +140,8 @@
     <MESSAGE value="add create form city, add messages and made changes in css." />
     <MESSAGE value="add fixtures." />
     <MESSAGE value="edit description." />
-    <option name="LAST_COMMIT_MESSAGE" value="edit description." />
+    <MESSAGE value="fix close balise." />
+    <MESSAGE value="change URL." />
+    <option name="LAST_COMMIT_MESSAGE" value="change URL." />
   </component>
 </project>
