@@ -1,3 +1,6 @@
+from django.contrib import messages
+from django.shortcuts import render, redirect, HttpResponse
+from .forms import CityForm
 from .models import City
 from django.shortcuts import render
 import requests
@@ -19,7 +22,7 @@ def index(request):
         weather = {
             'city': f'{city}',
             'country': f'{city_weather["sys"]["country"]}',
-            'temperature': f'{round(city_weather["main"]["temp"], 1)}',
+            'temperature': f'{round(city_weather["main"]["temp"])}',
             'description': f'{city_weather["weather"][0]["description"]}',
             'icon': f'{city_weather["weather"][0]["icon"]}',
             'wind_speed': f'{city_weather["wind"]["speed"]}',
@@ -27,8 +30,22 @@ def index(request):
             'timezone': f'{get_date(city_weather["timezone"])}'
         }
         weather_data.append(weather)
-    print("weather_data")
-    print(weather_data)
-    context = {'weather_date': weather_data}
-    # print(city_weather)
-    return render(request, 'weather/index.html', context)
+    if request.method == 'POST':
+        form = CityForm(request.POST)
+        city_name = request.POST.get('name').capitalize()
+        if form.is_valid():
+            form.save(commit=False)
+            form.save()
+            messages.success(request,
+                             f'The city {city_name} has been created')
+            return redirect('weather_index')
+        else:
+            context = {'weather_date': weather_data, 'form': form}
+            messages.error(request, f'{form.errors}'
+                           .replace('<ul class="errorlist"><li>', ' ')
+                           .replace('</li></ul>', ''))
+            return render(request, 'weather/index.html', context)
+    else:
+        form = CityForm()
+        context = {'weather_date': weather_data, 'form': form}
+        return render(request, 'weather/index.html', context)

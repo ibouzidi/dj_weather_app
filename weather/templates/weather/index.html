@@ -6,53 +6,15 @@
 {% endblock %}
 
 {% block content %}
-    {#    <section class="vh-100">#}
-    {#        <div class="container py-5 h-100">#}
-    {#            <h3 class="mb-4 pb-2 fw-normal">Vérifiez les prévisions météorologiques.</h3>#}
-    {#            <div class="input-group rounded mb-3">#}
-    {#                <form method="POST">#}
-    {#                        <div class="form-inline">#}
-    {#                            <input class="form-control rounded" type="text" placeholder="Nom de la ville">#}
-    {#                            <button class="form-control border-0 ml-2">#}
-    {#                                Ajouter une ville#}
-    {#                            </button>#}
-    {#                    </div>#}
-    {#                </form>#}
-    {#            </div>#}
-    {#            <div class="col-md-8 col-lg-6 col-xl-4">#}
-    {#                <div class="card flex-row shadow-0 border">#}
-    {#                    <img class="card-img-left example-card-img-responsive" src="http://openweathermap.org/img/w/{{ weather.icon }}.png" alt="Image">#}
-    {#                    <div class="card-body p-2">#}
-    {#                        <div class="card-header border-0">#}
-    {#                            <h4 class="mb-1 sfw-normal">{{ weather.city }}</h4>#}
-    {#                            <p class="mb-2">Température: <strong>{{ weather.temperature }}°C</strong></p>#}
-    {#                            <p class="mb-2">{{ weather.description }}</p>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {#            </div>#}
-    {#        </div>#}
-    {#    </section>#}
-    {#    <section class="vh-100">#}
-    {#        <div class="container py-5 h-100">#}
-    {#            <h3 class="mb-4 pb-2 fw-normal">Vérifiez les prévisions météorologiques.</h3>#}
-    {#            <div class="input-group rounded mb-3">#}
-    {#                <form method="POST">#}
-    {#                        <div class="form-inline">#}
-    {#                            <input class="form-control rounded" type="text" placeholder="Nom de la ville">#}
-    {#                            <button class="form-control border-0 ml-2">#}
-    {#                                Ajouter une ville#}
-    {#                            </button>#}
-    {#                    </div>#}
-    {#                </form>#}
-    {#            </div>#}
-    <section class="vh-100">
+    <section class="weather-list">
         <div class="container py-5 h-100">
             <h3>Vérifiez les prévisions météorologiques.</h3>
             <div class="input-group rounded mb-3">
                 <form method="POST">
-                    <div class="form-inline">
-                        <input class="form-control rounded" type="text" placeholder="Nom de la ville">
+                    {% csrf_token %}
+                    <div class="add-city-form form-inline">
+{#                        <input class="form-control rounded" type="text" placeholder="Nom de la ville">#}
+                        {{ form.name }}
                         <button class="form-control border-0 ml-2">
                             Ajouter une ville
                         </button>
@@ -61,28 +23,28 @@
             </div>
             <div class="row mt-5">
                 {% for weather in weather_date %}
-                    <div class="col-md-8 col-lg-6 col-xl-4">
-                        <div class="card" style="color: #4B515D; border-radius: 35px;">
+                    <div class="col-md-8 col-lg-6 col-xl-4 mt-3">
+                        <div class="card">
                             <div class="card-body p-4">
 
-                                <div class="d-flex">
-                                    <h6 class="flex-grow-1">{{ weather.city }}</h6>
-                                    <h6>{{ weather.timezone}}</h6>
+                                <div class="card-title d-flex">
+                                    <h6 class="city-name flex-grow-1">{{ weather.city }}</h6>
+                                    <h6 class="time-zone">{{ weather.timezone}}</h6>
                                 </div>
 
                                 <div class="d-flex flex-column text-center mt-5 mb-4">
-                                    <h6 class="display-4 mb-0 font-weight-bold" style="color: #1C2331;">
+                                    <h6 class="temperature-text display-4 mb-0 font-weight-bold">
                                         {{ weather.temperature }}°C </h6>
-                                    <span class="small" style="color: #868B94">{{ weather.description }}</span>
+                                    <span class="temperature-desc small">{{ weather.description }}</span>
                                 </div>
 
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-grow-1" style="font-size: 1rem;">
-                                        <div><i class="fas fa-wind fa-fw" style="color: #868B94;"></i> <span class="ms-1"> {{ weather.wind_speed }} km/h
-                                    </span></div>
-                                        <div><i class="fas fa-tint fa-fw" style="color: #868B94;"></i> <span class="ms-1"> {{ weather.humidity }}% </span>
+                                <div class="weather-detail d-flex align-items-center">
+                                    <div class="flex-grow-1">
+                                        <div title="Vitesse du vent"><i class="fas fa-wind fa-fw"></i>
+                                            <span class="ms-1"> {{ weather.wind_speed }} km/h</span>
                                         </div>
-                                        <div><i class="fas fa-sun fa-fw" style="color: #868B94;"></i> <span class="ms-1"> 0.2h </span>
+                                        <div title="Humidité"><i class="fas fa-tint fa-fw"></i>
+                                            <span class="ms-1"> {{ weather.humidity }}%</span>
                                         </div>
                                     </div>
                                     <div>

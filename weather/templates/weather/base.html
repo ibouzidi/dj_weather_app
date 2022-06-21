@@ -19,7 +19,7 @@
             <div class="container">
               <div class="content" style="overflow-x: hidden">
             <div class="middlebar" style="height: 55px; display: flex">{% block middlebar %}{% endblock %}</div>
-            <main role="main">{% block content %}{% endblock %}</main>
+            <main role="main">{% include 'weather/partials/messages.html' %}{% block content %}{% endblock %}</main>
             </div>
             </div>
         </div>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="Add css and add config weather api.">
+    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="add model city and display the weather from the cities stored in the database.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/static/weather/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/weather/static/weather/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/templates/weather/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/templates/weather/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather_app/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
       <updated>1655713916623</updated>
       <workItem from="1655713917861" duration="1520000" />
       <workItem from="1655715891692" duration="2778000" />
-      <workItem from="1655718704696" duration="13637000" />
+      <workItem from="1655718704696" duration="22137000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
@@ -80,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655735807070</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add model city and display the weather from the cities stored in the database.">
+      <created>1655738501795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655738501795</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initiation weather app." />
     <MESSAGE value="Add css and add config weather api." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add css and add config weather api." />
+    <MESSAGE value="add model city and display the weather from the cities stored in the database." />
+    <option name="LAST_COMMIT_MESSAGE" value="add model city and display the weather from the cities stored in the database." />
   </component>
 </project>
