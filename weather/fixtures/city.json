@@ -1,0 +1,16 @@
+[
+  {
+    "model": "weather.city",
+    "pk": 1,
+    "fields": {
+      "name": "Paris"
+    }
+  },
+  {
+    "model": "weather.city",
+    "pk": 2,
+    "fields": {
+      "name": "Marseille"
+    }
+  }
+]
