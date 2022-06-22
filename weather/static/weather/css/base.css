@@ -3,6 +3,7 @@
     --content-bg-color: #1C2331;
     --bg-color-primary: #323544;
     --bg-color-secondary: #2d303d;
+    --bg-color-black-opacity: rgba(0, 0, 0, 0.2);
     /* Color */
     --text-color-white: #f0f0f0;
     --text-color-grey-dark: #4B515D;
@@ -23,8 +24,10 @@
     --alert-danger-border: #f5c6cb;
 }
 
-body {
+html, body {
     background-color: var(--content-bg-color);
+    width: 100%;
+    height: 100%;
 }
 
 h3, h6 {
@@ -74,6 +77,22 @@ h3, h6 {
 .weather-list a, a:hover, a:focus, a:active{
     text-decoration: none;
     color: inherit;
+}
+
+.weather-list .icon-forcast{
+    margin-top: 1rem;
+    filter: invert(100%) sepia(5%) saturate(7480%) hue-rotate(194deg)
+    brightness(104%) contrast(102%);
+}
+
+footer{
+    background-color: var(--bg-color-black-opacity);
+    color:var(--text-color-orange);
+    margin-top: auto;
+}
+
+footer a{
+    color:var(--text-color-orange)
 }
 
 /* Alert */

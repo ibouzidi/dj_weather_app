@@ -1,9 +1,8 @@
 from django.core.exceptions import ObjectDoesNotExist
 from django.contrib import messages
-from django.shortcuts import render, redirect, HttpResponse
+from django.shortcuts import render, redirect
 from .forms import CityForm
 from .models import City
-from django.shortcuts import render
 import requests
 import datetime
 
@@ -88,6 +87,7 @@ def city_detail(request, pk=None):
         city_weather = requests.get(url.format(city.name)).json()
         city_forcast_day = requests.get(url_forcast.format(city.name)).json()
 
+        # Get the date and hours with the local timezone.
         def get_date(timezone):
             tz = datetime.timezone(datetime.timedelta(seconds=int(timezone)))
             return datetime.datetime.now(tz=tz).strftime("%A, %H:%M")
