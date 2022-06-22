@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="change weather icon, change css.">
+    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="fix temperature max and min.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/templates/weather/city_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/city_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,9 @@
       <workItem from="1655713917861" duration="1520000" />
       <workItem from="1655715891692" duration="2778000" />
       <workItem from="1655718704696" duration="30636000" />
-      <workItem from="1655884561453" duration="13762000" />
+      <workItem from="1655884561453" duration="14797000" />
+      <workItem from="1655907157441" duration="552000" />
+      <workItem from="1655909784895" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655903300803</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix temperature max and min.">
+      <created>1655903917490</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655903917490</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +179,7 @@
     <MESSAGE value="add instruction for API KEY." />
     <MESSAGE value="add detail city with forcast weather daily." />
     <MESSAGE value="change weather icon, change css." />
-    <option name="LAST_COMMIT_MESSAGE" value="change weather icon, change css." />
+    <MESSAGE value="fix temperature max and min." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix temperature max and min." />
   </component>
 </project>
