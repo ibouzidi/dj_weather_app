@@ -13,7 +13,7 @@
                 <form method="POST">
                     {% csrf_token %}
                     <div class="add-city-form form-inline">
-{#                        <input class="form-control rounded" type="text" placeholder="Nom de la ville">#}
+                        {#                        <input class="form-control rounded" type="text" placeholder="Nom de la ville">#}
                         {{ form.name }}
                         <button class="form-control border-0 ml-2">
                             Ajouter une ville
@@ -24,38 +24,39 @@
             <div class="row mt-5">
                 {% for weather in weather_date %}
                     <div class="col-md-8 col-lg-6 col-xl-4 mt-3">
-                        <div class="card">
-                            <div class="card-body p-4">
-
-                                <div class="card-title d-flex">
-                                    <h6 class="city-name flex-grow-1">{{ weather.city }}</h6>
-                                    <h6 class="time-zone">{{ weather.timezone}}</h6>
-                                </div>
-
-                                <div class="d-flex flex-column text-center mt-5 mb-4">
-                                    <h6 class="temperature-text display-4 mb-0 font-weight-bold">
-                                        {{ weather.temperature }}°C </h6>
-                                    <span class="temperature-desc small">{{ weather.description }}</span>
-                                </div>
-
-                                <div class="weather-detail d-flex align-items-center">
-                                    <div class="flex-grow-1">
-                                        <div title="Vitesse du vent"><i class="fas fa-wind fa-fw"></i>
-                                            <span class="ms-1"> {{ weather.wind_speed }} km/h</span>
-                                        </div>
-                                        <div title="Humidité"><i class="fas fa-tint fa-fw"></i>
-                                            <span class="ms-1"> {{ weather.humidity }}%</span>
-                                        </div>
+                        <a class="city-detail-weather" href="{% url 'weather:city_detail' weather.pk %}">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <div class="card-title d-flex">
+                                        <h6 class="city-name flex-grow-1 small">{{ weather.country }}, {{ weather.city }}</h6>
+                                        <h6 class="time-zone small">{{ weather.timezone}}</h6>
                                     </div>
-                                    <div>
-                                        {#                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/ilu1.webp"#}
-                                        {#                                         width="100px">#}
-                                        <img src="http://openweathermap.org/img/w/{{ weather.icon }}.png"
-                                             width="100px">
+
+                                    <div class="d-flex flex-column text-center mt-5 mb-4">
+                                        <h6 class="temperature-text display-4 mb-0 font-weight-bold">
+                                            {{ weather.temperature }}°C </h6>
+                                        <span class="temperature-desc small">{{ weather.description }}</span>
+                                    </div>
+
+                                    <div class="weather-detail d-flex align-items-center">
+                                        <div class="flex-grow-1">
+                                            <div title="Vitesse du vent"><i class="fas fa-wind fa-fw"></i>
+                                                <span class="ms-1"> {{ weather.wind_speed }} km/h</span>
+                                            </div>
+                                            <div title="Humidité"><i class="fas fa-tint fa-fw"></i>
+                                                <span class="ms-1"> {{ weather.humidity }}%</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            {#                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/ilu1.webp"#}
+                                            {#                                         width="100px">#}
+                                            <img src="http://openweathermap.org/img/w/{{ weather.icon }}.png"
+                                                 width="100px">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 {% endfor %}
             </div>

@@ -71,6 +71,11 @@ h3, h6 {
     border: solide 1px var(--bg-color-secondary);
 }
 
+.weather-list a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Alert */
 .alert-success {
     color: var(--alert-success-text);

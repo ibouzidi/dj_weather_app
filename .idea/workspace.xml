@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="change URL." />
+    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="add instruction for API KEY.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/static/weather/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/weather/static/weather/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/templates/weather/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,17 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ibouzidi/Django_projects/weather_app/weather/static/jquery",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ibouzidi/Django_projects/weather_app/weather/static/jquery&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ibouzidi\Django_projects\weather_app\weather\static\jquery" />
@@ -51,7 +59,8 @@
       <updated>1655713916623</updated>
       <workItem from="1655713917861" duration="1520000" />
       <workItem from="1655715891692" duration="2778000" />
-      <workItem from="1655718704696" duration="24841000" />
+      <workItem from="1655718704696" duration="30636000" />
+      <workItem from="1655884561453" duration="10631000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
@@ -116,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655804879265</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add instruction for API KEY.">
+      <created>1655812009310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655812009310</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +158,7 @@
     <MESSAGE value="edit description." />
     <MESSAGE value="fix close balise." />
     <MESSAGE value="change URL." />
-    <option name="LAST_COMMIT_MESSAGE" value="change URL." />
+    <MESSAGE value="add instruction for API KEY." />
+    <option name="LAST_COMMIT_MESSAGE" value="add instruction for API KEY." />
   </component>
 </project>
