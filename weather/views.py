@@ -93,6 +93,8 @@ def city_detail(request, pk=None):
             return datetime.datetime.now(tz=tz).strftime("%A, %H:%M")
 
         forcast_weather = []
+        print("city_weather")
+        print(city_weather)
         for day in city_forcast_day["list"]:
             date = datetime.datetime.fromtimestamp(day['dt'])
             day_icon = day["weather"][0]["icon"]
