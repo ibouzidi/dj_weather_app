@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="fix temperature max and min.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <workItem from="1655718704696" duration="30636000" />
       <workItem from="1655884561453" duration="14797000" />
       <workItem from="1655907157441" duration="552000" />
-      <workItem from="1655909784895" duration="1834000" />
+      <workItem from="1655909784895" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
