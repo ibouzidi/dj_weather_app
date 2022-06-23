@@ -1,7 +1,8 @@
 /venv/
 .idea
-/my.cnf
+.env
 migrations/
 /static/
 __pycache__/
 /media/
+Procfile
