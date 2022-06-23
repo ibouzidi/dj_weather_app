@@ -1,135 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="Upgrade django to version 3.1.14.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/dist/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/dist/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/var/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/DOMEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/camelCase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/isAttached.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/nodeName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/readyException.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/toType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/adjustCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/finalPropName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/css/var/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/data/var/acceptData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/data/var/dataPriv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/data/var/dataUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/event/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/event/alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/event/focusin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/event/trigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/getAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/traversing/var/dir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/traversing/var/siblings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/documentElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/fnToString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/getProto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/isFunction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/isWindow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/rcssNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/static/weather/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/templates/weather/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/weather/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="8461be6e-2b68-428d-83e1-30f5eb829021" name="Changes" comment="remove bootstrap files." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,6 +29,7 @@
     "last_opened_file_path": "C:/Users/ibouzidi/Django_projects/weather_app/weather/static/jquery",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap"
   },
   "keyToStringList": {
@@ -187,7 +60,7 @@
       <workItem from="1655718704696" duration="30636000" />
       <workItem from="1655884561453" duration="14797000" />
       <workItem from="1655907157441" duration="552000" />
-      <workItem from="1655909784895" duration="5435000" />
+      <workItem from="1655909784895" duration="5774000" />
     </task>
     <task id="LOCAL-00001" summary="initiation weather app.">
       <created>1655715371628</created>
@@ -294,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655983566482</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="remove jquery files and link.">
+      <created>1655983859209</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655983859209</updated>
+    </task>
+    <task id="LOCAL-00017" summary="remove bootstrap files.">
+      <created>1655984098938</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655984098938</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +213,8 @@
     <MESSAGE value="fix temperature max and min." />
     <MESSAGE value="fix gitignore." />
     <MESSAGE value="Upgrade django to version 3.1.14." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrade django to version 3.1.14." />
+    <MESSAGE value="remove jquery files and link." />
+    <MESSAGE value="remove bootstrap files." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove bootstrap files." />
   </component>
 </project>
